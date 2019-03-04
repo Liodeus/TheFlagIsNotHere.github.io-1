@@ -6,29 +6,32 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-disqus: TheFlagIsNotHere
-google_analytics: TheFlagIsNotHere
-title: TheFlagIsNotHere
+disqus: dbyll
+google_analytics: dbyll
+title: dbyll
+
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: TheFlagIsNotHere
+      title: dbyll
 
-description: CTF team 
+description: Stylish Jekyll Theme
 author:
-  name: TheFlagIsNotHere
-  email: TheFlagIsNotHere@protonmail.com
-  github: TheFlagIsNotHere
-  twitter: TheFlagIsNH
-  bio: CTF team 
-  
+  name: dbyll
+  email: dbyll@ismaildemirbilek.com
+  github: dbtek
+  twitter: Ori0n__
+  pinterest: asd123
+  linkedin: asd123
+  bio: Your stylish, minimalist theme!
+  email_md5: 726351295ec82e145928582f595aa3aa
 
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
-twitter_username: TheFlagIsNH
+twitter_username: Ori0n__
 
 # set it as url of an image
 # sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
@@ -37,4 +40,3 @@ BASE_PATH:
 
 plugins:
 - jekyll-paginate
-- jekyll-feed
