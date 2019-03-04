@@ -1,13 +1,10 @@
 ---
 layout: post
 title: Hello World!
-image: "/assets/media/hacking.jpg"
-twitter_text: "this is a test"
 categories: [general, setup, demo]
 tags: [demo, dbyll, dbtek, setup]
 fullview: true
 comments: true
-
 ---
 
 **dbyll** is minimalist, stylish theme for jekyll. Supports gravatar, account links (github, twitter, e-mail, pinterest, résume file) and a bio.  
@@ -17,4 +14,3 @@ comments: true
 ### dbyll is on GitHub
 
 <a class="btn btn-default" href="https://github.com/dbtek/dbyll">Grab your copy now!</a>
-
