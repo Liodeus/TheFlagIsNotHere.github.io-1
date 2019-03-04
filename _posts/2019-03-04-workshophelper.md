@@ -3,7 +3,7 @@ layout: post
 title: Sunshine CTF 2018 - WorkshopHelper
 image: "/assets/img/2018/sunshinectf2018/workshophelper/1.png"
 categories: [general, SunshineCTF2018]
-tags: [sunshinectf2018, ctf, writeup]
+tags: [sunshinectf2018, writeup]
 twitter_text: "Write-up for WorkshopHelper"
 introduction: "Write-up for WorkshopHelper"
 description: "Write-up for WorkshopHelper"
