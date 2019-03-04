@@ -1,0 +1,40 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+remote_theme: dbtek/dbyll
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: TheFlagIsNotHere
+google_analytics: TheFlagIsNotHere
+title: TheFlagIsNotHere
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: TheFlagIsNotHere
+
+description: CTF team 
+author:
+  name: TheFlagIsNotHere
+  email: TheFlagIsNotHere@protonmail.com
+  github: TheFlagIsNotHere
+  twitter: TheFlagIsNH
+  bio: CTF team 
+  
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+twitter_username: TheFlagIsNH
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+plugins:
+- jekyll-paginate
+- jekyll-feed
