@@ -2,7 +2,7 @@
 layout: post
 title: ISITDTU CTF 2018 - What is this
 image: "/assets/img/2018/isitdtuctf2018/whatisthis/1.png"
-categories: [general, ISITDTUCTF2018,2018]
+categories: [general, ISITDTUCTF2018]
 tags: [isitdtuctf2018, ctf, writeup]
 twitter_text: "Write-up for What is this"
 introduction: "Write-up for What is this"

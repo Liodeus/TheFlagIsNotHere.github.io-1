@@ -2,7 +2,7 @@
 layout: post
 title: IceCTF 2018 - Hard Shells
 image: "/assets/img/2018/icectf2018/hardshells/1.png"
-categories: [general, IceCTF2018,2018]
+categories: [general, IceCTF2018]
 tags: [icectf2018, ctf, writeup]
 twitter_text: "Write-up for Hard Shells"
 introduction: "Write-up for Hard Shells"
