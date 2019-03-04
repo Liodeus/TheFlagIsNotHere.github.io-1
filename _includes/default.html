@@ -7,10 +7,21 @@
 	<meta name="description" content="{{ page.description }}">
 	{% endif %}
 	<meta name="author" content="{{ site.author.name }}">
-	<meta name="twitter:card" content="summary_large_image">
+	 <!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@{{site.twitter_username}}">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} ">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.username }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    {% if page.image %}
     <meta property="twitter:image" content="{{ site.url }}{{ page.image }}">
+    {% else %}
+    <meta property="twitter:image:src" content="{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
+{% endif %}
+
+
+
+
+    
 	<!-- Enable responsive viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
