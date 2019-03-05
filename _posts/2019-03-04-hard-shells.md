@@ -17,7 +17,7 @@ First, let’s take a look at the file :
 
 It's a Zip archive, so try to unzip it :
 
-![](./assets/img/2018/icectf2018/hardshells/3.png)
+![](/assets/img/2018/icectf2018/hardshells/3.png)
 
 We need a password, I used john to crack it :
 
