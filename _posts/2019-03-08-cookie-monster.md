@@ -19,7 +19,7 @@ http://159.89.166.12:13500
 
 It's a simple website, but as the name of the challenge suggest and the content of the website I know that I have to work with cookies.
 
-So first I tried a simple curl :
+I tried a simple curl :
 
 ```bash
 curl -I http://159.89.166.12:13500
@@ -36,13 +36,13 @@ Content-Type: text/html; charset=UTF-8
 
 ```
 
-I get this value : flag=bc54f4d60f1cec0f9a6cb70e13f2127a. It's seems to be a md5 hash let's try to decode it :
+I get this value : flag=bc54f4d60f1cec0f9a6cb70e13f2127a. It seems to be a md5 hash let’s try to decode it :
 
 ![](/assets/img/2019/pragyanctf/cookiemonster/3.png)
 
 The result is : pc (seems to be the beginning of pctf ?)
 
-So now i'll try to send my command with the argument --cookie "flag=bc54f4d60f1cec0f9a6cb70e13f2127a" :
+So I tried to send my command with the argument --cookie "flag=bc54f4d60f1cec0f9a6cb70e13f2127a" :
 
 ```bash
 $ curl --cookie "flag=bc54f4d60f1cec0f9a6cb70e13f2127a" -I http://159.89.166.12:13500
@@ -53,13 +53,13 @@ Server: Apache/2.4.29 (Ubuntu)
 Set-Cookie: flag=114d6a415b3d04db792ca7c0da0c7a55
 Content-Type: text/html; charset=UTF-8
 ```
-I have another value of flag=, if a try to decode it I have "tf". With the precedent hash the result is : pctf. 
+I get another value of flag=, if I try to decode it I get “tf”. With the precedent hash the result is : pctf.
 
 I tried my command a few times :
 
 ![](/assets/img/2019/pragyanctf/cookiemonster/4.png)
 
-I automates with a script to get every value of the Set-Cookie :
+I automated with a script to get every value of the Set-Cookie :
 
 ```python
 import os
@@ -86,8 +86,8 @@ Result :
 
 ![](/assets/img/2019/pragyanctf/cookiemonster/5.png)
 
-So now I have every value of Set-Cookie, I use [Crackstation](https://crackstation.net/) to decode all my hash :
+So now I have every value of Set-Cookie, I used [Crackstation](https://crackstation.net/) to decode all my hashes :
 
 ![](/assets/img/2019/pragyanctf/cookiemonster/6.png)
 
-> The Flag : pctf{c0oki3s_@re_yUm_bUt_tHEy_@ls0_r3vEaL_@_l0t}
+> The Flag : **pctf{c0oki3s_@re_yUm_bUt_tHEy_@ls0_r3vEaL_@_l0t}**
