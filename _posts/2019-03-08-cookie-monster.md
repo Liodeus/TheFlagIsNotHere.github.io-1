@@ -73,8 +73,6 @@ send = Popen(['/usr/bin/curl', '-I', 'http://159.89.166.12:13500/'],stdout=PIPE)
 first = send.stdout.read().split()
 set_cookie.append(first[14].replace("flag=",""))
 
-i=0
-
 for i in range(0,23):
 	send = Popen(['/usr/bin/curl',"-I", '--cookie',"flag="+str(set_cookie[i]), 'http://159.89.166.12:13500/'],stdout=PIPE)
 	first = send.stdout.read().split()
