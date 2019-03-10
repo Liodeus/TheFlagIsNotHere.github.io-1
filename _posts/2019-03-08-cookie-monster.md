@@ -90,4 +90,4 @@ So now I have every value of Set-Cookie, I used [Crackstation](https://crackstat
 
 ![](/assets/img/2019/pragyanctf/cookiemonster/6.png)
 
-> The Flag : **pctf{c0oki3s_@re_yUm_bUt_tHEy_@ls0_r3vEaL_@_l0t}**
+> The Flag : ```pctf{c0oki3s_@re_yUm_bUt_tHEy_@ls0_r3vEaL_@_l0t}```
