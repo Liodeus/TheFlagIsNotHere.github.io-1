@@ -46,4 +46,4 @@ And there is ! So as you can see there is something weird going on with ht0p, wh
 
 ![](/assets/img/2018/timisoaractf2018/neurosurgery/7.png)
 
-> And there you have the flag : timctf{ch4nc3_f4vors_th3_pr3p4red_m1nd}
+> And there you have the flag : ```timctf{ch4nc3_f4vors_th3_pr3p4red_m1nd}```

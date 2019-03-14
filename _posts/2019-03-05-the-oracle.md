@@ -31,4 +31,4 @@ strings *|grep sctf{
 
 That it we got it !
 
-> Flag : sctf{W1ll_U_571ll_du_4ll_0f_7h1s_1f_1_h4d_n07_s41d_4ny7h1ng?}
+> Flag : ```sctf{W1ll_U_571ll_du_4ll_0f_7h1s_1f_1_h4d_n07_s41d_4ny7h1ng?}```

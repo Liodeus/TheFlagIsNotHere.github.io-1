@@ -39,4 +39,4 @@ We just have to open it to get the flag.
 
 ![](/assets/img/2018/pwnctf2018/canadianfoi/7.png)
 
-> Flag : flag{F1rst_Gr4d3rs_4r1thm3t1c_1s_d4ng3r0us}
+> Flag : ```flag{F1rst_Gr4d3rs_4r1thm3t1c_1s_d4ng3r0us}```

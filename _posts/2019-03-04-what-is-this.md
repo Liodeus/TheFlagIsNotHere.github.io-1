@@ -30,4 +30,4 @@ Using [Crackstation.net](https://crackstation.net/)
 
 ![](/assets/img/2018/isitdtuctf2018/whatisthis/5.png)
 
-> Flag : r4inb0w
+> Flag : ```r4inb0w```

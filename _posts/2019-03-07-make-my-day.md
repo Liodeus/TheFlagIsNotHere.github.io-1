@@ -24,4 +24,4 @@ And yes we can have the flag at 33:34 :
 
 ![](/assets/img/2018/neverlanctf2018/makemyday/3.png)
 
-> The flag : flag{H0p3_y0u_R3g!5t3r}
+> The flag : ```flag{H0p3_y0u_R3g!5t3r}```

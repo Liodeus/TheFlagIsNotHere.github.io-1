@@ -26,4 +26,4 @@ That’s it you have the flag !
 
 ![](/assets/img/2018/neverlanctf2018/thewifinetwork/2.png)
 
-> The Flag: obiwan17
+> The Flag: ```obiwan17```

@@ -33,4 +33,4 @@ Take a look at this :
 
 *When you find the tool what is the first command to « use » the exploit?*
 
-> The flag : exploit/windows/smb/ms17_010_eternalblue
+> The flag : ```exploit/windows/smb/ms17_010_eternalblue```

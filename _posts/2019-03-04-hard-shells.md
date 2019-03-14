@@ -49,4 +49,4 @@ Now you can open it and read the flag :
 
 ![](/assets/img/2018/icectf2018/hardshells/7.png)
 
-> Flag : IceCTF{look_away_i_am_hacking}
+> Flag : ```IceCTF{look_away_i_am_hacking}```
